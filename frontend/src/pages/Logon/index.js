@@ -32,6 +32,7 @@ export default function Logon(){
 
     return(
         <div className="logon-container">
+            <link rel="icon" type="image" href={logo} />
             <section className="form">
                 <img src={logo} alt="Be The Hero"/>
 

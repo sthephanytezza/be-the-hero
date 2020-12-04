@@ -1,0 +1,65 @@
+.email-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.email-container .container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-container .container img {
+    height: 80px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.email-container .container .form {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-container .container .form h1{
+    font-size: 30px;
+    margin-bottom: 32px;
+    color: #35353b;
+    font-weight: 200;
+}
+
+.email-container .container .form h2{
+    font-size: 18px;
+    color: #41414d;
+    font-weight: 400;
+    margin-bottom: 50px;
+    width: 70%;
+    text-align: center;
+}
+
+.email-container .container .form input {
+    width: 70%;
+}
+
+.email-container .container .form button {
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    font-weight: 500;
+    display: inline-block;
+    /* Alinhar o texto ao centro */
+    text-align: center;
+    /* Tirar qualquer tipo de estilização do texto */
+    text-decoration: none;
+    font-size: 18px;
+    /* Controla o espaço entre as linhas */
+    line-height: 40px;
+}
